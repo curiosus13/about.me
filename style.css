@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(245, 245, 245);
+    font-family: sans-serif;
+}
+
+.container
+{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.user-identification h1 {
+    font-size: 25px;
+}
+
+#avatar-user
+{
+    width: 70px;
+    border-radius: 35px;
+}
+
+.content
+{
+    border-top: solid 1px rgb(206, 203, 203);
+    width: 170px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.content a
+{
+    color: rgba(255, 255, 255, 0);
+}
+
+#button-primary
+{
+    background-color: rgb(0, 174, 255);
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    cursor: pointer;
+    width: 82px;
+    transition: 500ms;
+}
+
+#button-primary:hover
+{
+    background-color: rgba(0, 174, 255, 0.664);
+    color: whitesmoke;
+}
+
+#button-secundary
+{
+    background-color: rgba(0, 174, 255, 0.144);
+    border: solid 1px rgb(0, 174, 255);
+    border-radius: 3px;
+    padding: 6px;
+    cursor: pointer;
+    width: 82px;
+    transition: 500ms;
+}
+
+#button-secundary:hover
+{
+    background-color: rgba(0, 174, 255, 0.377);
+    color: whitesmoke;
+}
+
+.tags
+{
+    width: 170px;
+    margin-top: 10px;
+    border-bottom: solid 1px rgb(206, 203, 203);
+    padding-bottom: 10px;
+}
+
+#tag-html
+{
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border: none;
+    width: 41px;
+    height: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#tag-css
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 45px;
+    height: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#tag-javascript
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 75px;
+    height: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.description-user
+{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgb(206, 203, 203);
+}
+
+.description-user h1
+{
+    font-size: 18px;
+    text-align: left;
+}
+
+.description-user h3
+{
+    font-size: 13px;
+    text-align: left;
+}
